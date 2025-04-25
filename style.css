@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
 #principal{
     background-color: #b5c6e0;
     display: flex;
     width: 800px;
     height: 400px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     border-style:solid;
     
@@ -22,6 +20,7 @@ body{
     justify-content:center;
     align-items: center;
     margin: 0%;
+
 }
 
 .apresentacao{
@@ -49,15 +48,15 @@ body{
 .btns_conjunto{
     display: flex;
     justify-content: space-around;
-    
-
+    gap: 10px;
 }
 
 .btns{
     width: 180px;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
     padding: 5px;
+    border: 2px;
     border-radius: 10px;
     border-color: #9bafd9;
     background-color: #ebf4f5;
@@ -65,7 +64,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-decoration: none;
+    border-style: solid;
+    color: black;
 }
 
 .imagem_btn{
